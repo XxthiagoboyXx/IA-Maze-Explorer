@@ -1,33 +1,32 @@
 # IA-Maze-Explorer
-Agent maps the maze through the reinforcement algorithm and finds the exit
+Agent maps the maze through the reinforcement algorithm and finds the exit.
 
 ## How to run
 
   Download the repository:
 ```cmd
-git clone https://github.com/Sinu-Tech/Galeraxxx-Search-Escape
+git clone https://github.com/XxthiagoboyXx/IA-Maze_Explorer
 ```
- Enter repository folder
+ Enter in repository folder
  ```cmd
- cd .\Galeraxxx-Search-Escape
+ cd .\IA-Maze_Explorer
  ```
  Create Environment
  ```cmd
  python -m venv env
  ```
- For Linux
+ For run on Linux
 ```cmd
 source env\bin\activate
-```
- For Windows
+``` o ambiente em Windows
 ```cmd
 env\Scripts\activate.bat
 ```
- Install all dependencies
+  Instalar ou atualizar dependências
 ```cmd
 pip install -U -r .\requirements.txt
 ```
- Run the project
+Executar o projeto
 ```cmd 
 python .\src\main.py
 ```
